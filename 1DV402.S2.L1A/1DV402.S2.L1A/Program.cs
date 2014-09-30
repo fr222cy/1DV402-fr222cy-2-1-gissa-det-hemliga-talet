@@ -5,7 +5,7 @@ namespace _1DV402.S2.L1A
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
             Console.Title = "Gissa det hemliga talet - nivå A";
 
             // Testa grundläggande krav på klassen SecretNumber.
@@ -70,4 +70,4 @@ namespace _1DV402.S2.L1A
             } while (continueGame);
         }
     }
-}
+} 
