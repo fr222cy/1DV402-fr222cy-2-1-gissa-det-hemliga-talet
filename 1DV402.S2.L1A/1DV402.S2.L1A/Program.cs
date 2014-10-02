@@ -39,7 +39,7 @@ namespace _1DV402.S2.L1A
                     Console.ForegroundColor = ConsoleColor.White;
                     do
                     {
-                        Console.Write("\nGissning {0}: ", i);
+                        Console.Write("\nGissning {0}: ", i); 
                     } while (!(int.TryParse(Console.ReadLine(), out number) &&
                         number >= 1 && number <= 100));
                     Console.ResetColor();
